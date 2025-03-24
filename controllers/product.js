@@ -4,6 +4,9 @@ const Product = require("../models/product.model.js");
 const client = require("../config/redis.js");
 const User = require("../models/user.model.js");
 
+
+
+
 const createProduct = async (req, res) => {
   try {
     const { name } = req.body;
